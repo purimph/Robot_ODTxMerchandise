@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.9.6 on darwin)" generated="2026-03-01T14:13:03.692825" rpa="false" schemaversion="5">
-<suite id="s1" name="Main Page" source="/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/tests/main_page.robot">
-<test id="s1-t1" name="Search Robot Framework in search bar" line="5">
+<robot generator="Robot 7.4.1 (Python 3.9.6 on darwin)" generated="2026-03-01T14:56:38.356471" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Page" source="/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/tests/login_page.robot">
+<test id="s1-t1" name="Check ODT x Merchandise website" line="11">
+<kw name="Open ODT x Merchandise website">
 <kw name="New Browser" owner="Browser">
-<msg time="2026-03-01T14:13:03.916080" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/browser/traces/temp/2b4d44b4-c97c-4893-a4a8-cdd8399aa408"}</msg>
-<msg time="2026-03-01T14:13:03.996031" level="INFO">Starting Browser process /Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js using at 127.0.0.1:51626</msg>
-<msg time="2026-03-01T14:13:08.135534" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/browser/traces/temp/2b4d44b4-c97c-4893-a4a8-cdd8399aa408"}</msg>
+<msg time="2026-03-01T14:56:38.483488" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/browser/traces/temp/5e99b858-f8ef-45db-84e0-548ab974559c"}</msg>
+<msg time="2026-03-01T14:56:38.509804" level="INFO">Starting Browser process /Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js using at 127.0.0.1:58302</msg>
+<msg time="2026-03-01T14:56:40.275422" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/browser/traces/temp/5e99b858-f8ef-45db-84e0-548ab974559c"}</msg>
 <arg>chromium</arg>
 <arg>headless=False</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2026-03-01T14:13:03.915665" elapsed="4.220348"/>
+<status status="PASS" start="2026-03-01T14:56:38.483138" elapsed="1.792534"/>
 </kw>
 <kw name="New Context" owner="Browser">
-<msg time="2026-03-01T14:13:08.138232" level="INFO">{
+<msg time="2026-03-01T14:56:40.277187" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": false,
   "forcedColors": "none",
@@ -28,80 +29,165 @@
     "height": 720
   }
 }</msg>
-<msg time="2026-03-01T14:13:08.152002" level="INFO">Successfully created context. </msg>
-<msg time="2026-03-01T14:13:08.152083" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2026-03-01T14:56:40.285347" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-01T14:56:40.285399" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2026-03-01T14:13:08.136896" elapsed="0.015254"/>
+<status status="PASS" start="2026-03-01T14:56:40.276001" elapsed="0.009451"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2026-03-01T14:13:09.801396" level="INFO">Successfully initialized new page object and opened url: https://www.google.com</msg>
-<arg>https://www.google.com</arg>
+<msg time="2026-03-01T14:56:41.326544" level="INFO">Successfully initialized new page object and opened url: https://merchandise-dev.odds.team/index.html</msg>
+<arg>${url}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2026-03-01T14:13:08.152472" elapsed="1.649066"/>
+<status status="PASS" start="2026-03-01T14:56:40.285584" elapsed="1.041317"/>
 </kw>
-<kw name="Fill Text" owner="Browser">
-<msg time="2026-03-01T14:13:09.802135" level="INFO">Fills the text 'Robot Framework' in the given field.</msg>
-<arg>id=APjFqb</arg>
-<arg>Robot Framework</arg>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-01T14:56:41.368453" level="INFO">Text: 'ODT x merchandise'</msg>
+<msg time="2026-03-01T14:56:41.368603" level="INFO">${title} = ODT x merchandise</msg>
+<var>${title}</var>
+<arg>text=ODT x merchandise</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
 <tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-03-01T14:13:09.801783" elapsed="0.022679"/>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-01T14:56:41.327245" elapsed="0.041382"/>
 </kw>
-<kw name="Press Keys" owner="Browser">
-<arg>id=APjFqb</arg>
-<arg>Enter</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Types the given key combination into element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-01T14:13:09.824752" elapsed="0.239106"/>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${title}</arg>
+<arg>${text}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-03-01T14:56:41.368788" elapsed="0.000359"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-03-01T14:13:20.067520" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
-Error: Tried to take screenshot, but no page was open.</msg>
-<msg time="2026-03-01T14:13:20.067606" level="INFO">See also file:///Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/playwright-log.txt for additional details.</msg>
-<msg time="2026-03-01T14:13:20.067919" level="FAIL">Error: Could not find active page</msg>
-<arg>css=h3</arg>
+<msg time="2026-03-01T14:56:41.372849" level="INFO">Waited for Element with selector id=login-field at state visible</msg>
+<arg>id=login-field</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="FAIL" start="2026-03-01T14:13:10.064412" elapsed="10.009595">Error: Could not find active page</status>
+<status status="PASS" start="2026-03-01T14:56:41.369246" elapsed="0.003698"/>
 </kw>
-<kw name="${url}= Get URL">
-<status status="NOT RUN" start="2026-03-01T14:13:20.074296" elapsed="0.000059"/>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-01T14:56:41.375882" level="INFO">Waited for Element with selector id=password-field at state visible</msg>
+<arg>id=password-field</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-01T14:56:41.373073" elapsed="0.002886"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-01T14:56:41.378371" level="INFO">Waited for Element with selector id=submit-button at state visible</msg>
+<arg>id=submit-button</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-01T14:56:41.376067" elapsed="0.002370"/>
+</kw>
+<status status="PASS" start="2026-03-01T14:56:38.482673" elapsed="2.895847"/>
+</kw>
+<kw name="User login">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-01T14:56:41.379188" level="INFO">Fills the text 'customer1' in the given field.</msg>
+<arg>id=login-field</arg>
+<arg>${username}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-01T14:56:41.378929" elapsed="0.005658"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-01T14:56:41.384991" level="INFO">Fills the text 'password' in the given field.</msg>
+<arg>id=password-field</arg>
+<arg>${password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-01T14:56:41.384707" elapsed="0.005224"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-01T14:56:41.390484" level="INFO">Clicks the element 'id=submit-button'.</msg>
+<arg>id=submit-button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-01T14:56:41.390160" elapsed="0.036343"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-01T14:56:41.585373" level="INFO">Waited for Element with selector data-testid=cart at state visible</msg>
+<arg>data-testid=cart</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-01T14:56:41.426679" elapsed="0.158813"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-01T14:56:41.587967" level="INFO">Waited for Element with selector data-testid=cart at state visible</msg>
+<arg>data-testid=cart</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-01T14:56:41.585648" elapsed="0.002398"/>
+</kw>
+<kw name="Get Url" owner="Browser">
+<msg time="2026-03-01T14:56:41.589966" level="INFO">${url_store} = https://merchandise-dev.odds.team/store.html</msg>
+<var>${url_store}</var>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" start="2026-03-01T14:56:41.588162" elapsed="0.001835"/>
 </kw>
 <kw name="Should Contain" owner="BuiltIn">
-<arg>${url}</arg>
-<arg>search</arg>
+<arg>${url_store}</arg>
+<arg>store</arg>
 <doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
-<status status="NOT RUN" start="2026-03-01T14:13:20.074450" elapsed="0.000035"/>
+<status status="PASS" start="2026-03-01T14:56:41.590112" elapsed="0.000395"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-01T14:56:41.599606" level="INFO">Text: 'products'</msg>
+<msg time="2026-03-01T14:56:41.599692" level="INFO">${title_product} = products</msg>
+<var>${title_product}</var>
+<arg>text=products</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-01T14:56:41.590592" elapsed="0.009119"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${title_product}</arg>
+<arg>products</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-03-01T14:56:41.599808" elapsed="0.000268"/>
 </kw>
 <kw name="Close Browser" owner="Browser">
+<msg time="2026-03-01T14:56:41.794644" level="INFO">Closed browser</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Closes the current browser.</doc>
-<status status="NOT RUN" start="2026-03-01T14:13:20.074565" elapsed="0.000031"/>
+<status status="PASS" start="2026-03-01T14:56:41.600150" elapsed="0.194663"/>
 </kw>
-<msg time="2026-03-01T14:13:20.078544" level="INFO">Switching context to context=54aa7238-1a98-4766-b65e-5175621dcf9a in CURRENT</msg>
-<msg time="2026-03-01T14:13:20.079907" level="INFO">Successfully changed active context: context=54aa7238-1a98-4766-b65e-5175621dcf9a</msg>
-<msg time="2026-03-01T14:13:20.084150" level="INFO">Successfully closed Context</msg>
-<status status="FAIL" start="2026-03-01T14:13:03.915007" elapsed="16.159725">Error: Could not find active page</status>
+<status status="PASS" start="2026-03-01T14:56:41.378720" elapsed="0.416205"/>
+</kw>
+<status status="PASS" start="2026-03-01T14:56:38.482243" elapsed="3.312859"/>
 </test>
-<status status="FAIL" start="2026-03-01T14:13:03.694761" elapsed="16.389810"/>
+<status status="PASS" start="2026-03-01T14:56:38.363849" elapsed="3.433955"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Main Page" id="s1" pass="0" fail="1" skip="0">Main Page</stat>
+<stat name="Login Page" id="s1" pass="1" fail="0" skip="0">Login Page</stat>
 </suite>
 </statistics>
 <errors>

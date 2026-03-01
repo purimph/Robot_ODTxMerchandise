@@ -2,20 +2,34 @@
 Library    Browser
 
 *** Variables ***
-${text}    ODT x merchandise
-${url}     https://merchandise-dev.odds.team/index.html
-
+${SITE_TEXT}    ODT x merchandise
+${URL}     https://merchandise-dev.odds.team/index.html
+${USERNAME}  customer1
+${PASSWORD}  password
 
 *** Test Cases ***
 Check ODT x Merchandise website
+    Open ODT x Merchandise website
+    User login with valid account
+    Close Browser
+*** Keywords ***
+Open ODT x Merchandise website
     New Browser    chromium    headless=False
     New Context
-    New Page    ${url}
-    ${title}=    Get Text  text=ODT x merchandise
-    Should Be Equal    ${title}  ${text}
+    New Page    ${URL}
+    ${TITLE}=    Get Text  text=${SITE_TEXT}
+    Should Be Equal    ${TITLE}  ${SITE_TEXT}
 
     Wait For Elements State    id=login-field    visible
     Wait For Elements State    id=password-field    visible
     Wait For Elements State    id=submit-button    visible
-
-    Close Browser
+User login with valid account
+    Fill Text    id=login-field    ${USERNAME}
+    Fill Text    id=password-field    ${PASSWORD}
+    Click    id=submit-button
+    # ${title_product}=    Get Text  products
+    Wait For Elements State  data-testid=cart  visible
+    ${URL_STORE}=  Get Url 
+    Should Contain    ${URL_STORE}  store
+    ${TITLE_PRODUCT}=    Get Text  text=products
+    Should Be Equal    ${TITLE_PRODUCT}  products
