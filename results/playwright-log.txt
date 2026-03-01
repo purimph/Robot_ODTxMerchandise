@@ -1,0 +1,81 @@
+{"level":30,"time":"2026-03-01T08:22:43.790Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Listening on 127.0.0.1:50502"}
+{"level":30,"time":"2026-03-01T08:22:44.879Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-01T08:22:45.755Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
+{"level":30,"time":"2026-03-01T08:22:45.756Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-01T08:22:45.756Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-01T08:22:45.761Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-01T08:22:45.761Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-01T08:22:45.761Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@778c2700fff02967fba794c60650091a\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=5ec92dae-430c-4be7-83b8-e07db36c95aa\"}"}
+{"level":30,"time":"2026-03-01T08:22:45.761Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Trace file: "}
+{"level":30,"time":"2026-03-01T08:22:45.788Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Setting default timeout for context context=888a4ad8-b596-4d8f-a3f0-9f31c02e216e to 10000"}
+{"level":30,"time":"2026-03-01T08:22:45.788Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Changed active context: context=888a4ad8-b596-4d8f-a3f0-9f31c02e216e"}
+{"level":30,"time":"2026-03-01T08:22:45.788Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-01T08:22:45.792Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-01T08:22:45.792Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@778c2700fff02967fba794c60650091a\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=888a4ad8-b596-4d8f-a3f0-9f31c02e216e\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@53864fd9a0c662b3be0595e7942a713c\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=5ec92dae-430c-4be7-83b8-e07db36c95aa\"}"}
+{"level":30,"time":"2026-03-01T08:22:46.213Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-01T08:22:46.213Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-01T08:22:47.079Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-01T08:22:47.083Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-01T08:22:47.083Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=ODT x merchandise in page."}
+{"level":30,"time":"2026-03-01T08:22:47.121Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Retrieved text for element text=ODT x merchandise containing ODT x merchandise"}
+{"level":30,"time":"2026-03-01T08:22:47.121Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-01T08:22:47.124Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-01T08:22:47.124Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=login-field in page."}
+{"level":30,"time":"2026-03-01T08:22:47.126Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-01T08:22:47.127Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-01T08:22:47.127Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=password-field in page."}
+{"level":30,"time":"2026-03-01T08:22:47.129Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-01T08:22:47.130Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-01T08:22:47.130Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=submit-button in page."}
+{"level":30,"time":"2026-03-01T08:22:47.131Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-01T08:22:47.133Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-01T08:22:47.133Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=login-field in page."}
+{"level":30,"time":"2026-03-01T08:22:47.141Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-01T08:22:47.147Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-01T08:22:47.147Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=password-field in page."}
+{"level":30,"time":"2026-03-01T08:22:47.150Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-01T08:22:47.152Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-01T08:22:47.152Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=submit-button in page."}
+{"level":30,"time":"2026-03-01T08:22:47.181Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-01T08:22:47.183Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-01T08:22:47.183Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=cart in page."}
+{"level":30,"time":"2026-03-01T08:22:47.353Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-01T08:22:47.356Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-01T08:22:47.356Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=products in page."}
+{"level":30,"time":"2026-03-01T08:22:47.364Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Retrieved text for element text=products containing products"}
+{"level":30,"time":"2026-03-01T08:22:47.364Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-01T08:22:47.366Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-01T08:22:47.376Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Removed page=c60a7511-8031-417c-a435-58191725b729 from context=888a4ad8-b596-4d8f-a3f0-9f31c02e216e page stack"}
+{"level":30,"time":"2026-03-01T08:22:47.574Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:12547:15)
+    at PlaywrightServer.getActiveBrowser (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13497:59)
+    at PlaywrightServer.setTimeout (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13747:57)
+    at Object.onReceiveHalfClose (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-01T08:22:47.577Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-01T08:22:47.577Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:12547:15)
+    at PlaywrightServer.getActiveBrowser (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13497:59)
+    at PlaywrightServer.setTimeout (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13747:57)
+    at Object.onReceiveHalfClose (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-01T08:22:47.579Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-01T08:22:47.579Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-01T08:22:47.597Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-01T08:22:47.597Z","pid":88698,"hostname":"purims-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}
