@@ -27,7 +27,6 @@ User login with valid account
     Fill Text    id=login-field    ${USERNAME}
     Fill Text    id=password-field    ${PASSWORD}
     Click    id=submit-button
-    # ${title_product}=    Get Text  products
     Wait For Elements State  data-testid=cart  visible
     ${URL_STORE}=  Get Url 
     Should Contain    ${URL_STORE}  store
