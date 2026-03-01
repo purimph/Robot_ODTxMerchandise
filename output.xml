@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.9.6 on darwin)" generated="2026-03-01T14:13:03.692825" rpa="false" schemaversion="5">
+<suite id="s1" name="Main Page" source="/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/tests/main_page.robot">
+<test id="s1-t1" name="Search Robot Framework in search bar" line="5">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-01T14:13:03.916080" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/browser/traces/temp/2b4d44b4-c97c-4893-a4a8-cdd8399aa408"}</msg>
+<msg time="2026-03-01T14:13:03.996031" level="INFO">Starting Browser process /Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js using at 127.0.0.1:51626</msg>
+<msg time="2026-03-01T14:13:08.135534" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/browser/traces/temp/2b4d44b4-c97c-4893-a4a8-cdd8399aa408"}</msg>
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-01T14:13:03.915665" elapsed="4.220348"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-03-01T14:13:08.138232" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2026-03-01T14:13:08.152002" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-01T14:13:08.152083" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-03-01T14:13:08.136896" elapsed="0.015254"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-01T14:13:09.801396" level="INFO">Successfully initialized new page object and opened url: https://www.google.com</msg>
+<arg>https://www.google.com</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-01T14:13:08.152472" elapsed="1.649066"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-01T14:13:09.802135" level="INFO">Fills the text 'Robot Framework' in the given field.</msg>
+<arg>id=APjFqb</arg>
+<arg>Robot Framework</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-01T14:13:09.801783" elapsed="0.022679"/>
+</kw>
+<kw name="Press Keys" owner="Browser">
+<arg>id=APjFqb</arg>
+<arg>Enter</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given key combination into element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-01T14:13:09.824752" elapsed="0.239106"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-01T14:13:20.067520" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2026-03-01T14:13:20.067606" level="INFO">See also file:///Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/playwright-log.txt for additional details.</msg>
+<msg time="2026-03-01T14:13:20.067919" level="FAIL">Error: Could not find active page</msg>
+<arg>css=h3</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="FAIL" start="2026-03-01T14:13:10.064412" elapsed="10.009595">Error: Could not find active page</status>
+</kw>
+<kw name="${url}= Get URL">
+<status status="NOT RUN" start="2026-03-01T14:13:20.074296" elapsed="0.000059"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${url}</arg>
+<arg>search</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="NOT RUN" start="2026-03-01T14:13:20.074450" elapsed="0.000035"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2026-03-01T14:13:20.074565" elapsed="0.000031"/>
+</kw>
+<msg time="2026-03-01T14:13:20.078544" level="INFO">Switching context to context=54aa7238-1a98-4766-b65e-5175621dcf9a in CURRENT</msg>
+<msg time="2026-03-01T14:13:20.079907" level="INFO">Successfully changed active context: context=54aa7238-1a98-4766-b65e-5175621dcf9a</msg>
+<msg time="2026-03-01T14:13:20.084150" level="INFO">Successfully closed Context</msg>
+<status status="FAIL" start="2026-03-01T14:13:03.915007" elapsed="16.159725">Error: Could not find active page</status>
+</test>
+<status status="FAIL" start="2026-03-01T14:13:03.694761" elapsed="16.389810"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Main Page" id="s1" pass="0" fail="1" skip="0">Main Page</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
