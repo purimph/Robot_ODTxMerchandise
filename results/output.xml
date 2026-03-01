@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.9.6 on darwin)" generated="2026-03-01T15:22:43.098398" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.1 (Python 3.9.6 on darwin)" generated="2026-03-01T18:01:18.052291" rpa="false" schemaversion="5">
 <suite id="s1" name="Tests" source="/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/tests">
-<suite id="s1-s1" name="Login Page" source="/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/tests/login_page.robot">
-<test id="s1-s1-t1" name="Check ODT x Merchandise website" line="11">
-<kw name="Open ODT x Merchandise website">
+<suite id="s1-s1" name="Successfully Flow" source="/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/tests/successfully_flow.robot">
+<kw name="Open Browser To ODT" owner="common" type="SETUP">
 <kw name="New Browser" owner="Browser">
-<msg time="2026-03-01T15:22:43.262570" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/results/browser/traces/temp/75533c7b-d0c8-41b9-a2ea-7949c27ca16b"}</msg>
-<msg time="2026-03-01T15:22:43.328561" level="INFO">Starting Browser process /Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js using at 127.0.0.1:50502</msg>
-<msg time="2026-03-01T15:22:45.757608" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/results/browser/traces/temp/75533c7b-d0c8-41b9-a2ea-7949c27ca16b"}</msg>
+<msg time="2026-03-01T18:01:18.211854" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/results/browser/traces/temp/316e51f2-095e-49d2-a2d9-48d30afe487f"}</msg>
+<msg time="2026-03-01T18:01:18.287431" level="INFO">Starting Browser process /Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js using at 127.0.0.1:61333</msg>
+<msg time="2026-03-01T18:01:20.597572" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/purimph/workspaces/ODDS/practice/Robot_ODTxMerchandise/results/browser/traces/temp/316e51f2-095e-49d2-a2d9-48d30afe487f"}</msg>
 <arg>chromium</arg>
 <arg>headless=False</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2026-03-01T15:22:43.262219" elapsed="2.495632"/>
+<status status="PASS" start="2026-03-01T18:01:18.211541" elapsed="2.386236"/>
 </kw>
 <kw name="New Context" owner="Browser">
-<msg time="2026-03-01T15:22:45.759524" level="INFO">{
+<msg time="2026-03-01T18:01:20.599142" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": false,
   "forcedColors": "none",
@@ -26,163 +25,320 @@
   "reducedMotion": "no-preference",
   "serviceWorkers": "allow",
   "viewport": {
-    "width": 1280,
-    "height": 720
+    "height": 720,
+    "width": 1280
   }
 }</msg>
-<msg time="2026-03-01T15:22:45.789538" level="INFO">Successfully created context. </msg>
-<msg time="2026-03-01T15:22:45.789662" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2026-03-01T18:01:20.631707" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-01T18:01:20.631776" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2026-03-01T15:22:45.758184" elapsed="0.031556"/>
+<status status="PASS" start="2026-03-01T18:01:20.598035" elapsed="0.033817"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2026-03-01T15:22:47.080981" level="INFO">Successfully initialized new page object and opened url: https://merchandise-dev.odds.team/index.html</msg>
-<arg>${URL}</arg>
+<msg time="2026-03-01T18:01:21.881291" level="INFO">Successfully initialized new page object and opened url: https://merchandise-dev.odds.team/index.html</msg>
+<arg>${BASE_URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2026-03-01T15:22:45.789904" elapsed="1.291280"/>
+<status status="PASS" start="2026-03-01T18:01:20.632025" elapsed="1.249907"/>
 </kw>
-<kw name="Get Text" owner="Browser">
-<msg time="2026-03-01T15:22:47.121986" level="INFO">Text: 'ODT x merchandise'</msg>
-<msg time="2026-03-01T15:22:47.122139" level="INFO">${TITLE} = ODT x merchandise</msg>
-<var>${TITLE}</var>
+<status status="PASS" start="2026-03-01T18:01:18.211186" elapsed="3.671044"/>
+</kw>
+<test id="s1-s1-t1" name="ODT x Merchandise website" line="17">
+<kw name="Open ODT x Merchandise website" owner="login_page">
+<kw name="Go To" owner="Browser">
+<msg time="2026-03-01T18:01:21.966989" level="INFO">Successfully opened URL https://merchandise-dev.odds.team/index.html</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Navigates to the given ``url``.</doc>
+<status status="PASS" start="2026-03-01T18:01:21.893057" elapsed="0.074056"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-01T18:01:21.982824" level="INFO">Waited for Element with selector text=ODT x merchandise at state visible</msg>
 <arg>text=${SITE_TEXT}</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-01T15:22:47.081418" elapsed="0.040744"/>
-</kw>
-<kw name="Should Be Equal" owner="BuiltIn">
-<arg>${TITLE}</arg>
-<arg>${SITE_TEXT}</arg>
-<doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-03-01T15:22:47.122323" elapsed="0.000462"/>
-</kw>
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-03-01T15:22:47.126459" level="INFO">Waited for Element with selector id=login-field at state visible</msg>
-<arg>id=login-field</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-03-01T15:22:47.123080" elapsed="0.003457"/>
+<status status="PASS" start="2026-03-01T18:01:21.967277" elapsed="0.015650"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-03-01T15:22:47.129397" level="INFO">Waited for Element with selector id=password-field at state visible</msg>
-<arg>id=password-field</arg>
+<msg time="2026-03-01T18:01:21.986130" level="INFO">Waited for Element with selector id=login-field at state visible</msg>
+<arg>${USERNAME_FIELD}</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-03-01T15:22:47.126651" elapsed="0.002819"/>
+<status status="PASS" start="2026-03-01T18:01:21.983070" elapsed="0.003144"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-03-01T15:22:47.131739" level="INFO">Waited for Element with selector id=submit-button at state visible</msg>
-<arg>id=submit-button</arg>
+<msg time="2026-03-01T18:01:21.989552" level="INFO">Waited for Element with selector id=password-field at state visible</msg>
+<arg>${PASSWORD_FIELD}</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-03-01T15:22:47.129575" elapsed="0.002226"/>
+<status status="PASS" start="2026-03-01T18:01:21.986331" elapsed="0.003284"/>
 </kw>
-<status status="PASS" start="2026-03-01T15:22:43.261773" elapsed="3.870106"/>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-01T18:01:21.991702" level="INFO">Waited for Element with selector id=submit-button at state visible</msg>
+<arg>${LOGIN_BUTTON}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-01T18:01:21.989710" elapsed="0.002048"/>
 </kw>
-<kw name="User login with valid account">
+<status status="PASS" start="2026-03-01T18:01:21.892626" elapsed="0.099190"/>
+</kw>
+<kw name="User login with valid account" owner="login_page">
 <kw name="Fill Text" owner="Browser">
-<msg time="2026-03-01T15:22:47.132509" level="INFO">Fills the text 'customer1' in the given field.</msg>
-<arg>id=login-field</arg>
-<arg>${USERNAME}</arg>
+<msg time="2026-03-01T18:01:21.992429" level="INFO">Fills the text 'customer1' in the given field.</msg>
+<arg>${USERNAME_FIELD}</arg>
+<arg>${username}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-03-01T15:22:47.132265" elapsed="0.011053"/>
+<status status="PASS" start="2026-03-01T18:01:21.992216" elapsed="0.008739"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2026-03-01T15:22:47.145008" level="INFO">Fills the text 'password' in the given field.</msg>
-<arg>id=password-field</arg>
-<arg>${PASSWORD}</arg>
+<msg time="2026-03-01T18:01:22.001908" level="INFO">Fills the text 'password' in the given field.</msg>
+<arg>${PASSWORD_FIELD}</arg>
+<arg>${password}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-03-01T15:22:47.143899" elapsed="0.007356"/>
+<status status="PASS" start="2026-03-01T18:01:22.001129" elapsed="0.007608"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2026-03-01T15:22:47.151749" level="INFO">Clicks the element 'id=submit-button'.</msg>
-<arg>id=submit-button</arg>
+<msg time="2026-03-01T18:01:22.009268" level="INFO">Clicks the element 'id=submit-button'.</msg>
+<arg>${LOGIN_BUTTON}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-01T15:22:47.151424" elapsed="0.030354"/>
+<status status="PASS" start="2026-03-01T18:01:22.008907" elapsed="0.034933"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-03-01T15:22:47.353474" level="INFO">Waited for Element with selector data-testid=cart at state visible</msg>
-<arg>data-testid=cart</arg>
+<msg time="2026-03-01T18:01:22.206190" level="INFO">Waited for Element with selector text=products at state visible</msg>
+<arg>text=products</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-03-01T15:22:47.181940" elapsed="0.171648"/>
+<status status="PASS" start="2026-03-01T18:01:22.044009" elapsed="0.162301"/>
 </kw>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<status status="PASS" start="2026-03-01T18:01:21.991988" elapsed="0.214415"/>
+</kw>
+<status status="PASS" start="2026-03-01T18:01:21.882414" elapsed="0.324135"/>
+</test>
+<test id="s1-s1-t2" name="Product list page" line="21">
+<kw name="Redirect to product list page" owner="product_list_page">
 <kw name="Get Url" owner="Browser">
-<msg time="2026-03-01T15:22:47.355242" level="INFO">${URL_STORE} = https://merchandise-dev.odds.team/store.html</msg>
+<msg time="2026-03-01T18:01:22.212117" level="INFO">${URL_STORE} = https://merchandise-dev.odds.team/store.html</msg>
 <var>${URL_STORE}</var>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns the current URL.</doc>
-<status status="PASS" start="2026-03-01T15:22:47.353743" elapsed="0.001526"/>
+<status status="PASS" start="2026-03-01T18:01:22.210975" elapsed="0.001185"/>
 </kw>
 <kw name="Should Contain" owner="BuiltIn">
 <arg>${URL_STORE}</arg>
 <arg>store</arg>
 <doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
-<status status="PASS" start="2026-03-01T15:22:47.355378" elapsed="0.000397"/>
+<status status="PASS" start="2026-03-01T18:01:22.212272" elapsed="0.000391"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2026-03-01T15:22:47.365120" level="INFO">Text: 'products'</msg>
-<msg time="2026-03-01T15:22:47.365214" level="INFO">${TITLE_PRODUCT} = products</msg>
+<msg time="2026-03-01T18:01:22.228131" level="INFO">Text: 'products'</msg>
+<msg time="2026-03-01T18:01:22.228252" level="INFO">${TITLE_PRODUCT} = products</msg>
 <var>${TITLE_PRODUCT}</var>
 <arg>text=products</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-01T15:22:47.355862" elapsed="0.009371"/>
+<status status="PASS" start="2026-03-01T18:01:22.212757" elapsed="0.015557"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${TITLE_PRODUCT}</arg>
 <arg>products</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-03-01T15:22:47.365343" elapsed="0.000246"/>
+<status status="PASS" start="2026-03-01T18:01:22.228457" elapsed="0.000282"/>
 </kw>
-<status status="PASS" start="2026-03-01T15:22:47.132061" elapsed="0.233580"/>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-01T18:01:22.230725" level="INFO">Waited for Element with selector data-testid=cart at state visible</msg>
+<arg>data-testid=cart</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-01T18:01:22.228824" elapsed="0.001978"/>
 </kw>
-<kw name="Close Browser" owner="Browser">
-<msg time="2026-03-01T15:22:47.574825" level="INFO">Closed browser</msg>
+<status status="PASS" start="2026-03-01T18:01:22.210749" elapsed="0.020121"/>
+</kw>
+<kw name="Product list should be displayed" owner="product_list_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-01T18:01:22.264161" level="INFO">Text: 'TerraFlex Hoodie'</msg>
+<msg time="2026-03-01T18:01:22.264282" level="INFO">${PRODUCT_1} = TerraFlex Hoodie</msg>
+<var>${PRODUCT_1}</var>
+<arg>text=${PRODUCT_NAME_1}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-01T18:01:22.231245" elapsed="0.033058"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${PRODUCT_1}</arg>
+<arg>${PRODUCT_NAME_1}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-03-01T18:01:22.264442" elapsed="0.000284"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-01T18:01:22.272804" level="INFO">Text: 'NordicPeak Jacket'</msg>
+<msg time="2026-03-01T18:01:22.272911" level="INFO">${PRODUCT_2} = NordicPeak Jacket</msg>
+<var>${PRODUCT_2}</var>
+<arg>text=${PRODUCT_NAME_2}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-01T18:01:22.264807" elapsed="0.008125"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${PRODUCT_2}</arg>
+<arg>${PRODUCT_NAME_2}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-03-01T18:01:22.273054" elapsed="0.000289"/>
+</kw>
+<status status="PASS" start="2026-03-01T18:01:22.231045" elapsed="0.042384"/>
+</kw>
+<kw name="Add product to cart" owner="product_list_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-01T18:01:22.274293" level="INFO">Clicks the element 'css=div[data-sku="0000000001"] &gt;&gt; data-testid=add-to-cart-button'.</msg>
+<arg>css=div[data-sku="${SKU}"] &gt;&gt; data-testid=add-to-cart-button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-01T18:01:22.273972" elapsed="0.031819"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-01T18:01:22.308351" level="INFO">Waited for Element with selector data-testid=cart-items-count at state visible</msg>
+<arg>data-testid=cart-items-count</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-01T18:01:22.305965" elapsed="0.002475"/>
+</kw>
+<arg>${SKU_PRODUCT_1}</arg>
+<status status="PASS" start="2026-03-01T18:01:22.273648" elapsed="0.034868"/>
+</kw>
+<kw name="Click cart" owner="cart_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-01T18:01:22.309211" level="INFO">Clicks the element 'data-testid=cart'.</msg>
+<arg>data-testid=cart</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-01T18:01:22.308969" elapsed="0.122089"/>
+</kw>
+<kw name="Get Url" owner="Browser">
+<msg time="2026-03-01T18:01:22.432730" level="INFO">${URL_CART} = https://merchandise-dev.odds.team/cart.html</msg>
+<var>${URL_CART}</var>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" start="2026-03-01T18:01:22.431246" elapsed="0.001515"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${URL_CART}</arg>
+<arg>cart</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2026-03-01T18:01:22.432888" elapsed="0.000298"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-01T18:01:22.447116" level="INFO">Waited for Element with selector text=your cart at state visible</msg>
+<arg>text=your cart</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-01T18:01:22.433285" elapsed="0.013945"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-01T18:01:22.449663" level="INFO">Waited for Element with selector data-testid=checkout-button at state visible</msg>
+<arg>data-testid=checkout-button</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-01T18:01:22.447381" elapsed="0.002355"/>
+</kw>
+<status status="PASS" start="2026-03-01T18:01:22.308755" elapsed="0.141049"/>
+</kw>
+<status status="PASS" start="2026-03-01T18:01:22.209334" elapsed="0.240606"/>
+</test>
+<test id="s1-s1-t3" name="Cart page" line="27">
+<kw name="Product in cart should be correct" owner="cart_page">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-01T18:01:22.533077" level="INFO">Waited for Element with selector data-testid=cart-item at state visible</msg>
+<arg>data-testid=cart-item</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-01T18:01:22.455641" elapsed="0.077574"/>
+</kw>
+<kw name="Get Attribute" owner="Browser">
+<msg time="2026-03-01T18:01:22.541905" level="INFO">Attribute is: '0000000001'</msg>
+<msg time="2026-03-01T18:01:22.542013" level="INFO">${SKU_PRODUCT_CART} = 0000000001</msg>
+<var>${SKU_PRODUCT_CART}</var>
+<arg>data-testid=cart-item</arg>
+<arg>data-sku</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the HTML ``attribute`` of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-01T18:01:22.533395" elapsed="0.008638"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${SKU_PRODUCT_CART}</arg>
+<arg>${SKU}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-03-01T18:01:22.542158" elapsed="0.000280"/>
+</kw>
+<arg>${SKU_PRODUCT_1}</arg>
+<status status="PASS" start="2026-03-01T18:01:22.455087" elapsed="0.087409"/>
+</kw>
+<status status="PASS" start="2026-03-01T18:01:22.452173" elapsed="0.090437"/>
+</test>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2026-03-01T18:01:22.742311" level="INFO">Closed browser</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-03-01T15:22:47.365858" elapsed="0.209095"/>
+<status status="PASS" start="2026-03-01T18:01:22.545522" elapsed="0.196903"/>
 </kw>
-<status status="PASS" start="2026-03-01T15:22:43.261378" elapsed="4.313780"/>
-</test>
-<status status="PASS" start="2026-03-01T15:22:43.120151" elapsed="4.457683"/>
+<status status="PASS" start="2026-03-01T18:01:18.072344" elapsed="4.670139"/>
 </suite>
-<status status="PASS" start="2026-03-01T15:22:43.100683" elapsed="4.479065"/>
+<status status="PASS" start="2026-03-01T18:01:18.053826" elapsed="4.691092"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Tests" id="s1" pass="1" fail="0" skip="0">Tests</stat>
-<stat name="Login Page" id="s1-s1" pass="1" fail="0" skip="0">Tests.Login Page</stat>
+<stat name="Tests" id="s1" pass="3" fail="0" skip="0">Tests</stat>
+<stat name="Successfully Flow" id="s1-s1" pass="3" fail="0" skip="0">Tests.Successfully Flow</stat>
 </suite>
 </statistics>
 <errors>
