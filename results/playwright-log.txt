@@ -1,98 +1,133 @@
-{"level":30,"time":"2026-03-01T11:01:18.738Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Listening on 127.0.0.1:61333"}
-{"level":30,"time":"2026-03-01T11:01:19.843Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-01T11:01:20.596Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
-{"level":30,"time":"2026-03-01T11:01:20.596Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-01T11:01:20.596Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-01T11:01:20.600Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method newContext"}
-{"level":30,"time":"2026-03-01T11:01:20.600Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
-{"level":30,"time":"2026-03-01T11:01:20.600Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@e9ca328e7dedb0f3a60fe24375ce6e82\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=fcb01bba-a06a-4dd0-8a4d-6446da00a1c3\"}"}
-{"level":30,"time":"2026-03-01T11:01:20.600Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Trace file: "}
-{"level":30,"time":"2026-03-01T11:01:20.630Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Setting default timeout for context context=fcbcb2a4-6e81-45be-b3ed-ff80f7f373d2 to 10000"}
-{"level":30,"time":"2026-03-01T11:01:20.631Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Changed active context: context=fcbcb2a4-6e81-45be-b3ed-ff80f7f373d2"}
-{"level":30,"time":"2026-03-01T11:01:20.631Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method newContext"}
-{"level":30,"time":"2026-03-01T11:01:20.633Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-01T11:01:20.634Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@e9ca328e7dedb0f3a60fe24375ce6e82\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=fcbcb2a4-6e81-45be-b3ed-ff80f7f373d2\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@76256e92fdfc022607592a69e67c2eef\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}},\"traceFile\":\"\"}],\"id\":\"browser=fcb01bba-a06a-4dd0-8a4d-6446da00a1c3\"}"}
-{"level":30,"time":"2026-03-01T11:01:21.047Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-01T11:01:21.047Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Changed active page"}
-{"level":30,"time":"2026-03-01T11:01:21.879Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-01T11:01:21.885Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T11:01:21.891Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T11:01:21.894Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method goTo"}
-{"level":30,"time":"2026-03-01T11:01:21.966Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method goTo"}
-{"level":30,"time":"2026-03-01T11:01:21.968Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:21.969Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=ODT x merchandise in page."}
-{"level":30,"time":"2026-03-01T11:01:21.982Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:21.984Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:21.984Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=login-field in page."}
-{"level":30,"time":"2026-03-01T11:01:21.985Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:21.987Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:21.987Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=password-field in page."}
-{"level":30,"time":"2026-03-01T11:01:21.988Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:21.990Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:21.990Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=submit-button in page."}
-{"level":30,"time":"2026-03-01T11:01:21.991Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:21.993Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-01T11:01:21.993Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=login-field in page."}
-{"level":30,"time":"2026-03-01T11:01:22.000Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-01T11:01:22.002Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-01T11:01:22.002Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=password-field in page."}
-{"level":30,"time":"2026-03-01T11:01:22.008Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-01T11:01:22.010Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-01T11:01:22.010Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=submit-button in page."}
-{"level":30,"time":"2026-03-01T11:01:22.043Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-01T11:01:22.045Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:22.045Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=products in page."}
-{"level":30,"time":"2026-03-01T11:01:22.205Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:22.208Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T11:01:22.208Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T11:01:22.210Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T11:01:22.210Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T11:01:22.213Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-01T11:01:22.213Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=products in page."}
-{"level":30,"time":"2026-03-01T11:01:22.227Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Retrieved text for element text=products containing products"}
-{"level":30,"time":"2026-03-01T11:01:22.227Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-01T11:01:22.229Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:22.229Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=cart in page."}
-{"level":30,"time":"2026-03-01T11:01:22.230Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:22.232Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-01T11:01:22.232Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=TerraFlex Hoodie in page."}
-{"level":30,"time":"2026-03-01T11:01:22.263Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Retrieved text for element text=TerraFlex Hoodie containing TerraFlex Hoodie"}
-{"level":30,"time":"2026-03-01T11:01:22.263Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-01T11:01:22.265Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-01T11:01:22.265Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=NordicPeak Jacket in page."}
-{"level":30,"time":"2026-03-01T11:01:22.272Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Retrieved text for element text=NordicPeak Jacket containing NordicPeak Jacket"}
-{"level":30,"time":"2026-03-01T11:01:22.272Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-01T11:01:22.275Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-01T11:01:22.275Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with css=div[data-sku=\"0000000001\"] >> data-testid=add-to-cart-button in page."}
-{"level":30,"time":"2026-03-01T11:01:22.305Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-01T11:01:22.307Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:22.307Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=cart-items-count in page."}
-{"level":30,"time":"2026-03-01T11:01:22.308Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:22.309Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-01T11:01:22.309Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=cart in page."}
-{"level":30,"time":"2026-03-01T11:01:22.430Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-01T11:01:22.434Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:22.434Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=your cart in page."}
-{"level":30,"time":"2026-03-01T11:01:22.446Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:22.448Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:22.448Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=checkout-button in page."}
-{"level":30,"time":"2026-03-01T11:01:22.449Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:22.451Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T11:01:22.451Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T11:01:22.453Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T11:01:22.454Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T11:01:22.457Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:22.457Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=cart-item in page."}
-{"level":30,"time":"2026-03-01T11:01:22.532Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-01T11:01:22.534Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getElementAttribute"}
-{"level":30,"time":"2026-03-01T11:01:22.534Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=cart-item in page."}
-{"level":30,"time":"2026-03-01T11:01:22.541Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Retrieved attribute for element data-testid=cart-item containing 0000000001"}
-{"level":30,"time":"2026-03-01T11:01:22.541Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method getElementAttribute"}
-{"level":30,"time":"2026-03-01T11:01:22.544Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T11:01:22.544Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T11:01:22.546Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-03-01T11:01:22.557Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Removed page=df0627ad-d0e2-4931-a072-3a9a440e4e8e from context=fcbcb2a4-6e81-45be-b3ed-ff80f7f373d2 page stack"}
-{"level":30,"time":"2026-03-01T11:01:22.741Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-03-02T10:32:18.567Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Listening on 127.0.0.1:63975"}
+{"level":30,"time":"2026-03-02T10:32:19.664Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-02T10:32:20.455Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
+{"level":30,"time":"2026-03-02T10:32:20.455Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-02T10:32:20.455Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-02T10:32:20.460Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-02T10:32:20.460Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2026-03-02T10:32:20.460Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@2851c9a8cc2ce342878997dcc7c4328f\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=cbb8fd82-fa3f-4a48-b634-651d8e5de59f\"}"}
+{"level":30,"time":"2026-03-02T10:32:20.460Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Trace file: "}
+{"level":30,"time":"2026-03-02T10:32:20.489Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Setting default timeout for context context=84896097-aee0-44c8-995e-c7ce767af43f to 10000"}
+{"level":30,"time":"2026-03-02T10:32:20.489Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Changed active context: context=84896097-aee0-44c8-995e-c7ce767af43f"}
+{"level":30,"time":"2026-03-02T10:32:20.489Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-02T10:32:20.491Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-02T10:32:20.491Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@2851c9a8cc2ce342878997dcc7c4328f\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=84896097-aee0-44c8-995e-c7ce767af43f\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@542bf9b2bde1b04b7803fc5a80238c25\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}},\"traceFile\":\"\"}],\"id\":\"browser=cbb8fd82-fa3f-4a48-b634-651d8e5de59f\"}"}
+{"level":30,"time":"2026-03-02T10:32:21.011Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-02T10:32:21.012Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-02T10:32:21.787Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-02T10:32:21.794Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:21.805Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:21.809Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method goTo"}
+{"level":30,"time":"2026-03-02T10:32:21.882Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method goTo"}
+{"level":30,"time":"2026-03-02T10:32:21.884Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:21.884Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=ODT x merchandise in page."}
+{"level":30,"time":"2026-03-02T10:32:21.899Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:21.901Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:21.901Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=login-field in page."}
+{"level":30,"time":"2026-03-02T10:32:21.902Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:21.904Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:21.904Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=password-field in page."}
+{"level":30,"time":"2026-03-02T10:32:21.905Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:21.906Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:21.906Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=submit-button in page."}
+{"level":30,"time":"2026-03-02T10:32:21.907Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:21.909Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-02T10:32:21.909Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=login-field in page."}
+{"level":30,"time":"2026-03-02T10:32:21.919Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-02T10:32:21.921Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-02T10:32:21.921Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=password-field in page."}
+{"level":30,"time":"2026-03-02T10:32:21.964Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-02T10:32:21.966Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-02T10:32:21.966Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=submit-button in page."}
+{"level":30,"time":"2026-03-02T10:32:21.999Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-02T10:32:22.001Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.001Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=products in page."}
+{"level":30,"time":"2026-03-02T10:32:22.128Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.131Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:22.131Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:22.133Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:22.133Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:22.137Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-02T10:32:22.137Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=products in page."}
+{"level":30,"time":"2026-03-02T10:32:22.151Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Retrieved text for element text=products containing products"}
+{"level":30,"time":"2026-03-02T10:32:22.151Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-02T10:32:22.154Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.154Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=cart in page."}
+{"level":30,"time":"2026-03-02T10:32:22.165Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.167Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-02T10:32:22.167Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=TerraFlex Hoodie in page."}
+{"level":30,"time":"2026-03-02T10:32:22.171Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Retrieved text for element text=TerraFlex Hoodie containing TerraFlex Hoodie"}
+{"level":30,"time":"2026-03-02T10:32:22.171Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-02T10:32:22.173Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-02T10:32:22.173Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=NordicPeak Jacket in page."}
+{"level":30,"time":"2026-03-02T10:32:22.176Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Retrieved text for element text=NordicPeak Jacket containing NordicPeak Jacket"}
+{"level":30,"time":"2026-03-02T10:32:22.177Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-02T10:32:22.179Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-02T10:32:22.179Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with css=div[data-sku=\"0000000001\"] >> data-testid=add-to-cart-button in page."}
+{"level":30,"time":"2026-03-02T10:32:22.191Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-02T10:32:22.193Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.193Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=cart-items-count in page."}
+{"level":30,"time":"2026-03-02T10:32:22.194Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.195Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-02T10:32:22.196Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=cart in page."}
+{"level":30,"time":"2026-03-02T10:32:22.312Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-02T10:32:22.316Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.316Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=your cart in page."}
+{"level":30,"time":"2026-03-02T10:32:22.329Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.331Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.331Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=checkout-button in page."}
+{"level":30,"time":"2026-03-02T10:32:22.332Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.335Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:22.335Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:22.336Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:22.336Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:22.338Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.338Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=cart-item in page."}
+{"level":30,"time":"2026-03-02T10:32:22.414Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.416Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2026-03-02T10:32:22.416Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=cart-item in page."}
+{"level":30,"time":"2026-03-02T10:32:22.422Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Retrieved attribute for element data-testid=cart-item containing 0000000001"}
+{"level":30,"time":"2026-03-02T10:32:22.422Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2026-03-02T10:32:22.424Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-02T10:32:22.424Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=checkout-button in page."}
+{"level":30,"time":"2026-03-02T10:32:22.548Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-02T10:32:22.552Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-02T10:32:22.552Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=firstname-field in page."}
+{"level":30,"time":"2026-03-02T10:32:22.567Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-02T10:32:22.569Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-02T10:32:22.569Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=lastname-field in page."}
+{"level":30,"time":"2026-03-02T10:32:22.572Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-02T10:32:22.574Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-02T10:32:22.574Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=email-field in page."}
+{"level":30,"time":"2026-03-02T10:32:22.576Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-02T10:32:22.577Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-02T10:32:22.577Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=zipcode-field in page."}
+{"level":30,"time":"2026-03-02T10:32:22.580Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-02T10:32:22.581Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-02T10:32:22.581Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=confirm-payment-button in page."}
+{"level":30,"time":"2026-03-02T10:32:22.607Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-02T10:32:22.609Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.609Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=Thank you for your order in page."}
+{"level":30,"time":"2026-03-02T10:32:22.804Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.807Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:22.808Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:22.809Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:22.809Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:22.811Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-02T10:32:22.811Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=Thank you for your order. in page."}
+{"level":30,"time":"2026-03-02T10:32:22.819Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Retrieved text for element text=Thank you for your order. containing Thank you for your order."}
+{"level":30,"time":"2026-03-02T10:32:22.819Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-02T10:32:22.822Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.822Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=Thank you for your order. in page."}
+{"level":30,"time":"2026-03-02T10:32:22.823Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.824Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.824Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with data-testid=back-to-store-button in page."}
+{"level":30,"time":"2026-03-02T10:32:22.825Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-02T10:32:22.826Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:22.827Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:22.828Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-02T10:32:22.841Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Removed page=7cbb5798-1a9c-48e4-9b0b-960b2907f960 from context=84896097-aee0-44c8-995e-c7ce767af43f page stack"}
+{"level":30,"time":"2026-03-02T10:32:23.075Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:12547:15)
@@ -102,11 +137,11 @@ Error: Browser has been closed.
     at BaseServerInterceptingCall.maybePushNextMessage (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
     at BaseServerInterceptingCall.handleEndEvent (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
     at ServerHttp2Stream.<anonymous> (/Users/purimph/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-03-01T11:01:22.744Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T11:01:22.744Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T11:01:22.762Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2026-03-01T11:01:22.763Z","pid":22058,"hostname":"purims-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-02T10:32:23.078Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:23.078Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-02T10:32:23.099Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-02T10:32:23.099Z","pid":2894,"hostname":"purims-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}

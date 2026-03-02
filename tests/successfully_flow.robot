@@ -4,6 +4,7 @@ Resource  ../resources/common.resource
 Resource  ../resources/login_page.resource
 Resource  ../resources/product_list_page.resource
 Resource  ../resources/cart_page.resource
+Resource  ../resources/thankyou_page.resource
 Suite Setup      Open Browser To ODT
 Suite Teardown   Close Browser
 
@@ -26,6 +27,13 @@ Product list page
 
 Cart page
     Product in cart should be correct  ${SKU_PRODUCT_1}
+    Click checkout button
+    Fill shipping address
+    Click confirm payment button
+
+Thank you page        
+    Thank you page should be displayed
+
 # Product list page is displayed
 #     ${URL_STORE}=  Get Url 
 #     Should Contain    ${URL_STORE}  store

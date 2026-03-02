@@ -22,3 +22,10 @@ Add product to cart
     [Arguments]  ${SKU}
     Click    css=div[data-sku="${SKU}"] >> data-testid=add-to-cart-button
     Wait For Elements State  data-testid=cart-items-count  visible
+
+Click cart
+    Click    data-testid=cart
+    ${URL_CART}=  Get Url
+    Should Contain    ${URL_CART}  cart
+    Wait For Elements State  text=your cart  visible
+    Wait For Elements State  data-testid=checkout-button  visible
