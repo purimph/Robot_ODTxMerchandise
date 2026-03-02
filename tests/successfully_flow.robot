@@ -33,9 +33,3 @@ Cart page
 
 Thank you page        
     Thank you page should be displayed
-
-# Product list page is displayed
-#     ${URL_STORE}=  Get Url 
-#     Should Contain    ${URL_STORE}  store
-#     ${TITLE_PRODUCT}=    Get Text  text=products
-#     Should Be Equal    ${TITLE_PRODUCT}  products
