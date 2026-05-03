@@ -9,9 +9,6 @@ Resource  ../resources/variables.robot
 Suite Setup      Open Browser To ODT
 Suite Teardown   Close Browser
 
-*** Variables ***
-${SKU_PRODUCT_1}  0000000001
-${SKU_PRODUCT_2}  0000000002
 
 *** Test Cases ***
 ODT x Merchandise website

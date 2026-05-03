@@ -17,4 +17,3 @@ ODT x Merchandise website
 Click cart with empty cart
     Click cart
     Empty cart
-
