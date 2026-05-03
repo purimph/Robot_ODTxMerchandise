@@ -21,3 +21,12 @@ Fill shipping address
 Click confirm payment button
     Click  data-testid=confirm-payment-button
     Wait For Elements State  text=Thank you for your order  visible
+
+Empty cart
+    Click  data-testid=cart
+    Wait For Elements State  text=No item in cart.  visible
+
+Continue shopping form cart page
+    Click  data-testid=continue-shopping-link
+    ${URL_STORE}=  Get Url
+    Should Contain    ${URL_STORE}  store
