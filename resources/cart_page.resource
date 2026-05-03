@@ -1,4 +1,12 @@
+*** Settings ***
+Resource  ../resources/variables.robot
+
 *** Variables ***
+${FIRST_NAME_FIELD}  data-testid=firstname-field
+${LAST_NAME_FIELD}  data-testid=lastname-field
+${EMAIL_FIELD}  data-testid=email-field
+${ZIP_CODE_FIELD}  data-testid=zipcode-field
+${CONFIRM_PAYMENT_BUTTON}  data-testid=confirm-payment-button
 
 *** Keywords ***
 Product in cart should be correct
@@ -13,13 +21,13 @@ Click checkout button
     Should Contain    ${URL_CHECKOUT}  check-out
     
 Fill shipping address
-    Fill Text  data-testid=firstname-field  QA
-    Fill Text  data-testid=lastname-field   Automation
-    Fill Text  data-testid=email-field  automation@mailinator.com
-    Fill Text  data-testid=zipcode-field  12345
+    Fill Text  ${FIRST_NAME_FIELD}  ${FIRST_NAME}
+    Fill Text  ${LAST_NAME_FIELD}   ${LAST_NAME}
+    Fill Text  ${EMAIL_FIELD}  ${EMAIL}
+    Fill Text  ${ZIP_CODE_FIELD}  ${ZIP_CODE}
 
 Click confirm payment button
-    Click  data-testid=confirm-payment-button
+    Click  ${CONFIRM_PAYMENT_BUTTON}
     Wait For Elements State  text=Thank you for your order  visible
 
 Empty cart
