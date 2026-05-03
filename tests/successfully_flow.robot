@@ -5,12 +5,11 @@ Resource  ../resources/login_page.resource
 Resource  ../resources/product_list_page.resource
 Resource  ../resources/cart_page.resource
 Resource  ../resources/thankyou_page.resource
+Resource  ../resources/variables.robot
 Suite Setup      Open Browser To ODT
 Suite Teardown   Close Browser
 
 *** Variables ***
-${USERNAME}  customer1
-${PASSWORD}  password
 ${SKU_PRODUCT_1}  0000000001
 ${SKU_PRODUCT_2}  0000000002
 
